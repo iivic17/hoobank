@@ -6,7 +6,9 @@ const Testimonials = () => (
 	<section
 		id='clients'
 		className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
-		<div className='absolute z-[0] w-[50%] h-[100%] -right-[50%] rounded-full blue__gradient' />
+		<div className='absolute z-[0] w-[40%] h-[35%] -right-[50%] top-0 pink__gradient' />
+		<div className='absolute z-[1] w-[40%] h-[20%] rounded-full -right-[10%] bottom-40 white__gradient' />
+		<div className='absolute z-[0] w-[10%] h-[40%] -right-[10%] bottom-20 blue__gradient' />
 
 		<div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
 			<h1 className={`${styles.heading2}`}>
